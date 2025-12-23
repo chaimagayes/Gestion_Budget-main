@@ -1,0 +1,101 @@
+/* Login.css */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+  background-size: cover;
+}
+
+.login-card {
+  width: 380px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+.subtitle {
+  color: #5a5a5a;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-login:hover {
+  background: #1b63c7;
+}
+
+.forgot-link {
+  display: block;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.register-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.register-text a {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: 600;
+}
