@@ -1,12 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "./login.css";
 
 export default function Login() {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    // plus tard tu mettras ici la vraie logique d'authentification
     navigate("/dashboard");
   };
 
@@ -18,7 +17,9 @@ export default function Login() {
           <h1 className="app-title">BudgetFlow</h1>
         </div>
 
-        <p className="subtitle">Générez vos finances en toute simplicité</p>
+        <p className="subtitle">
+          Gérez vos finances en toute simplicité
+        </p>
 
         <div className="form-group">
           <label>Nom d'utilisateur</label>
@@ -39,11 +40,10 @@ export default function Login() {
         </a>
 
         <p className="register-text">
-          Pas encore de compte ? <a href="#">S'inscrire</a>
+          Pas encore de compte ?{" "}
+          <Link to="/register">S'inscrire</Link>
         </p>
       </div>
     </div>
   );
 }
-
-
